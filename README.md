@@ -268,7 +268,7 @@ The next step is to start the browser instance and navigate to http://localhost:
 Fixtures define the steps and data that constitute the arranged phase of a test. They are functions we define that serve this purpose. They can also be used to define a test’s act phase; this is a powerful technique for designing more complex tests.
 We can tell pytest that a particular function is a fixture by decorating it with @pytest.fixture.
 
-Here’s a piece of code to show how fixtures work in our case in **confest.py**:
+Here’s a piece of code to show how fixtures work:
 
 ```python
 
